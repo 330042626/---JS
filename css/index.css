@@ -1,0 +1,99 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    img {
+        border: 0;
+    }
+
+    ol,
+    ul,
+    li {
+        list-style: none;
+    }
+
+    .Nav {
+        width: 100%;
+        overflow: hidden;
+        position: fixed;
+        z-index: 10;
+    }
+
+    .Nav ul li {
+        float: left;
+        margin: 10px;
+    }
+
+    .Nav ul li a {
+        display: block;
+        text-decoration: none;
+        padding: 9px 18px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.5);
+        color: #333;
+        transition: all .2s linear;
+    }
+
+    .Nav ul li a:hover {
+        background: rgba(255, 255, 255, 0.8);
+    }
+
+    .Nav ul li a.cur {
+        color: #fff;
+        background: rgba(0, 0, 0, 0.5);
+    }
+
+    .Nav ul li a.cur:hover {
+        background: rgba(255, 255, 255, 0.8);
+        color: #333;
+    }
+    /*  */
+
+    main div.e-fixed {
+        position: fixed;
+    }
+
+    main div.index {
+        width: 100%;
+        background: url('../images/db1ca420ccd388dd3066ab218096b97f.jpg') center no-repeat;
+    }
+
+    main div .zycx {
+        position: absolute;
+        width: 650px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+    }
+
+    main div .zycx .zycxMax {
+        font-size: 8em;
+        text-align: center;
+    }
+
+    main div .zycx .zycxMin {
+        font-size: 4em;
+        text-align: center;
+    }
+
+    main div.about {
+        width: 100%;
+        background: skyblue;
+    }
+
+    main div.product {
+        width: 100%;
+        background: red;
+    }
+
+    main div.customer {
+        width: 100%;
+        background: green;
+    }
+
+    main div.contact {
+        width: 100%;
+        background: yellow;
+    }
